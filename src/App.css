@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+body {
+  background-color: #bde4f4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.address{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.addressbook {
+  flex-direction: row;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+input {
+  box-sizing: content-box;
+  /* margin: 173px; */
+  padding: 10px 20px;
+  border: 1px solid #b7b7b7;
+  border-radius: 12px;
+  font-family: 'Roboto', sans-serif;
+  color: #00303f;
+  text-overflow: clip;
+  word-spacing: 2px;
+  background: rgba(252,252,252,1);
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+}
+
+input:focus{
+    background-color: powderblue;
+}
+
+button {
+  border-radius: 12px;
+  /* margin: 173px; */
+  padding: 10px 20px;
+}
+
+
+p{
+  display: flex;
+  justify-content: flex-start;
+  padding: 0px 10px;
+  align-items: center;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(230, 230, 230);
+  width: 180px;
+  margin: 1px;
+  font-weight: 500;
 }
