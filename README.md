@@ -1,6 +1,8 @@
 # Address book project.
 
-Add contacts to your addressbook and cross them of when they are completed.
+Add contacts to your address book. 
+
+Backend to be created for the storage of contacts.
 
 application created using React.
 
